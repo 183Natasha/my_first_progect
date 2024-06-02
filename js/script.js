@@ -1,4 +1,4 @@
-// Текущая датв
+// Текущая дата
 let date = new Date(); // создание нового объекта с текущей датой и временем
 let dayNumber = date.getDate(); // получение даты
 let month = date.getMonth()+1; // получение месяца
@@ -19,7 +19,7 @@ document.getElementById("Difference_In_Days").innerHTML = Difference_In_Days;
 let Difference_In_Time_NOW =
     date2.getTime() - date.getTime();
 let Difference_In_Days_NOW =
-        Math.round
+        Math.floor
             (Difference_In_Time_NOW / (1000 * 3600 * 24));
 
 document.getElementById("Difference_In_Days_NOW").innerHTML = Difference_In_Days_NOW;
@@ -36,4 +36,5 @@ let summa_dolga = 405000-summa_dolga_1day*counter;
 summa_dolga = Math.ceil(summa_dolga)
 
 document.getElementById("summa_dolga").innerHTML = summa_dolga;
+
 
