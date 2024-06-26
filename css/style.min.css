@@ -1,16 +1,12 @@
-.home_img {
-  width: 600px;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
-  z-index: -1;
+.bg_project {
+  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+  text-align: center;
 }
 
 h1 {
   width: 50%;
   max-width: 600px;
   text-align: center;
-  background: rgba(51, 51, 51, 0.5);
 }
 
 .data,
@@ -32,4 +28,8 @@ h6 {
   text-align: center;
   color: black;
   font-size: 18px;
+}
+
+.autor {
+  padding: 25px;
 }
