@@ -7,7 +7,7 @@ document.getElementById("date_now").innerHTML = dayNumber + "." + month + "." + 
 
 // Дата начало-конец
 let date1 = new Date("10/13/2022");
-let date2 = new Date("10/12/2025");
+let date2 = new Date("10/13/2025");
 let Difference_In_Time =
     date2.getTime() - date1.getTime();
 let Difference_In_Days =
